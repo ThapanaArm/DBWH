@@ -1903,7 +1903,7 @@ namespace BIS_INTERFACE_BC
 
         private static async Task UpdateBilling(string sText)
         {
-            var batchSql = new StringBuilder();
+            var batchSql = new StringBuilder(); 
             string _url = "";
             DateTime Getdate = DateTime.Today;
             DateTime LastDate = DateTime.Today.AddDays(-3);
